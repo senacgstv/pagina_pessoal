@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gustavo Silveira Silva – Instrutor de TI no Senac PR e profissional de tecnologia em Pato Branco, PR.">
+    <title>Gustavo Silveira Silva | Tecnologia e Educação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== CABEÇALHO (Aula 02 + Aula 07: Flexbox) ===================== -->
+    <header class="topo">
+        <div class="container navbar">
+            <a class="marca" href="#inicio">Gustavo Silva</a>
+            <nav aria-label="Menu principal">
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="inicio">
+
+        <!-- ===================== PERFIL (Aula 05: div, class e id) ===================== -->
+        <section class="perfil">
+            <div class="container perfil-conteudo">
+                <figure class="foto">
+                    <!-- Troque pela sua foto: img/perfil.jpg -->
+                    <img src="img/perfil.svg" alt="Iniciais GS de Gustavo Silveira Silva">
+                </figure>
+                <div class="perfil-texto">
+                    <p class="chamada">Olá, eu sou</p>
+                    <h1>Gustavo Silveira Silva</h1>
+                    <p class="cargo">Instrutor de TI no Senac PR • Técnico de Controle de Qualidade na Claro</p>
+                    <p>Mais de 20 anos em tecnologia: telecomunicações, infraestrutura, qualidade operacional,
+                        desenvolvimento web e educação. Moro em Pato Branco, no Paraná.</p>
+                    <div class="acoes">
+                        <a class="botao" href="#projetos">Ver projetos</a>
+                        <a class="botao botao-contorno" href="#contato">Fale comigo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SOBRE ===================== -->
+        <section id="sobre" class="secao">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <div class="grade-2">
+                    <article class="card">
+                        <h3>Trajetória</h3>
+                        <p>Comecei em 2005 com manutenção de computadores e, desde 2009, atuo também como consultor
+                            de TI autônomo. Passei por operações de telecom, suporte corporativo, implantação de sistemas
+                            e qualidade operacional.</p>
+                        <p>Hoje divido o meu tempo entre a área de qualidade na Claro e a sala de aula no Senac PR.</p>
+                    </article>
+                    <article class="card">
+                        <h3>O que me move</h3>
+                        <ul>
+                            <li>Ensinar tecnologia de forma prática.</li>
+                            <li>Criar sistemas web e ferramentas de dados.</li>
+                            <li>Automatizar tarefas repetitivas.</li>
+                            <li>Estudar IA aplicada e novas tecnologias.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERIÊNCIA (lista com time) ===================== -->
+        <section id="experiencia" class="secao secao-clara">
+            <div class="container">
+                <h2>Experiência</h2>
+                <ol class="linha-tempo">
+                    <li>
+                        <time datetime="2026-06">Desde 2026</time>
+                        <h3>Instrutor de Tecnologia da Informação – Senac PR</h3>
+                        <p>Cursos de TI, lógica de programação e criação de websites em Pato Branco e Palmas.</p>
+                    </li>
+                    <li>
+                        <time datetime="2024-04">Desde 2024</time>
+                        <h3>Técnico de Controle de Qualidade – Claro</h3>
+                        <p>Auditoria de operações de campo, indicadores de qualidade e melhoria de processos.</p>
+                    </li>
+                    <li>
+                        <time datetime="2022-09">2022 – 2024</time>
+                        <h3>Widesys</h3>
+                        <p>Atuação em tecnologia e telecomunicações em Pato Branco.</p>
+                    </li>
+                    <li>
+                        <time datetime="2009-01">Desde 2009</time>
+                        <h3>Consultor de TI autônomo</h3>
+                        <p>Suporte técnico, redes e infraestrutura para pessoas, pequenos negócios e escritórios.</p>
+                    </li>
+                </ol>
+                <p class="observacao">Também atuei em projetos e operações ligados a empresas como Vivo, TCS, Bradesco,
+                    Hughes, OI, AeC, Atento e Procon-SP.</p>
+            </div>
+        </section>
+
+        <!-- ===================== COMPETÊNCIAS (Aula 07: flex-wrap) ===================== -->
+        <section id="competencias" class="secao">
+            <div class="container">
+                <h2>Competências</h2>
+                <div class="grade-3">
+                    <article class="card">
+                        <h3>Desenvolvimento</h3>
+                        <ul class="etiquetas">
+                            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li>
+                            <li>Python</li><li>React</li><li>Next.js</li><li>NestJS</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Dados e infraestrutura</h3>
+                        <ul class="etiquetas">
+                            <li>PostgreSQL</li><li>MySQL</li><li>SQL Server</li><li>Docker</li>
+                            <li>Linux</li><li>Git e GitHub</li><li>BI</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Gestão e educação</h3>
+                        <ul class="etiquetas">
+                            <li>Qualidade operacional</li><li>Indicadores</li><li>Six Sigma</li>
+                            <li>Automação</li><li>IA aplicada</li><li>Didática</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROJETOS (Aula 08: Grid com auto-fit) ===================== -->
+        <section id="projetos" class="secao secao-clara">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="grade-projetos">
+                    <article class="card projeto destaque">
+                        <p class="tag">Educação</p>
+                        <h3>Trilha de lógica em várias linguagens</h3>
+                        <p>Guias de atividades práticas de lógica de programação, de Portugol a Python e JavaScript,
+                            usados com as turmas do Senac.</p>
+                    </article>
+                    <article class="card projeto">
+                        <p class="tag">Web</p>
+                        <h3>Site de ofertas com a turma</h3>
+                        <p>Projeto em grupo com alunos: ofertas de supermercados de Pato Branco, versionado no GitHub.</p>
+                    </article>
+                    <article class="card projeto">
+                        <p class="tag">Educação</p>
+                        <h3>Sistema escolar didático</h3>
+                        <p>Projeto em TypeScript para ensinar média, frequência e aprovação passo a passo.</p>
+                    </article>
+                    <article class="card projeto">
+                        <p class="tag">Infraestrutura</p>
+                        <h3>Laboratório Docker</h3>
+                        <p>Ambiente de estudo com proxy reverso Nginx, API Node.js e PostgreSQL.</p>
+                    </article>
+                    <article class="card projeto">
+                        <p class="tag">Automação</p>
+                        <h3>Radar Tech Diário</h3>
+                        <p>Automação que reúne notícias de tecnologia e IA em um resumo diário.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== FORMAÇÃO ===================== -->
+        <section id="formacao" class="secao">
+            <div class="container">
+                <h2>Formação</h2>
+                <div class="grade-3">
+                    <article class="card">
+                        <h3>Sistemas Computacionais</h3>
+                        <p>Graduação concluída em 2010.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Desenvolvimento Full Stack</h3>
+                        <p>Formação em desenvolvimento web de ponta a ponta.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Manutenção de computadores</h3>
+                        <p>Primeiro curso na área, em 2005.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PERGUNTAS (Aula 09: details e summary) ===================== -->
+        <section id="perguntas" class="secao secao-clara">
+            <div class="container">
+                <h2>Perguntas frequentes</h2>
+                <details>
+                    <summary>Que cursos você ministra no Senac?</summary>
+                    <p>Cursos de TI como HTML e CSS – Criação de Websites, Programador de Sistemas e Pacote Office.</p>
+                </details>
+                <details>
+                    <summary>Como este site foi feito?</summary>
+                    <p>Somente com HTML e CSS: semântica, Flexbox, Grid e media queries, os mesmos conteúdos do curso.</p>
+                </details>
+                <details>
+                    <summary>Posso usar este código como modelo?</summary>
+                    <p>Sim. Troque os textos e a foto pelos seus e personalize as cores no style.css.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- ===================== CONTATO (Aula 09: formulário com label) ===================== -->
+        <section id="contato" class="secao">
+            <div class="container grade-2">
+                <div class="card">
+                    <h2>Contato</h2>
+                    <p>O melhor caminho para falar comigo é pelo LinkedIn.</p>
+                    <a class="botao" href="https://www.linkedin.com/in/gtosilva/" target="_blank" rel="noopener">
+                        Abrir meu LinkedIn
+                    </a>
+                    <!-- Sigilo de dados (Aula 09): telefone e endereço pessoais não são publicados. -->
+                </div>
+                <form class="card formulario" action="#" method="post">
+                    <h2>Envie uma mensagem</h2>
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" type="text" required>
+
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button class="botao" type="submit">Enviar mensagem</button>
+                    <small>Formulário demonstrativo: este site não armazena dados.</small>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== RODAPÉ ===================== -->
+    <footer class="rodape">
+        <div class="container navbar">
+            <p>© 2026 Gustavo Silveira Silva • Pato Branco, PR</p>
+            <p>Feito com HTML e CSS para a turma 202600084 do Senac PR.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
